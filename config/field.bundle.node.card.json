@@ -1,0 +1,10 @@
+{
+    "_config_name": "field.bundle.node.card",
+    "bundle": "card",
+    "entity_type": "node",
+    "view_modes": [],
+    "extra_fields": {
+        "form": [],
+        "display": []
+    }
+}

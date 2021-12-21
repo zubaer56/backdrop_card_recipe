@@ -1,0 +1,35 @@
+/*.view-cards .view-content {
+  display:  grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 50px;
+  overflow: hidden;
+}
+
+.view-cards .views-field-body p {
+  font-style: italic;
+}
+
+.view-cards .views-field-body p:first-child:before {
+  content: open-quote;
+}
+
+.view-cards .views-field-body p:last-child:after {
+  content: close-quote;
+}
+
+.view-cards .views-field-field-card-author div {
+  font-weight: 900;
+}
+
+.view-cards .views-field-field-card-author div:before {
+  content: "-- ";
+}
+
+@media (max-width: 44em) {
+  .view-cards .view-content {
+    grid-template-columns: minmax(0, 1fr);
+    column-gap: 0px;
+  }
+}
+
+*/
